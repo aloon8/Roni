@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Roni\GamePlay\GamePlay\obj\Debug\
+C:\Git\Roni\GamePlay\GamePlay\obj\Debug\
 GamePlay
 none
 false
 DEBUG;TRACE
-C:\Roni\GamePlay\GamePlay\App.xaml
+C:\Git\Roni\GamePlay\GamePlay\App.xaml
 5-1654794159
 
-13347218212
-17450701235
+14524847914
+18-1686814659
 GameWindow.xaml;MainWindow.xaml;Register.xaml;SingIn.xaml;WaitingForGame.xaml;
 
 False

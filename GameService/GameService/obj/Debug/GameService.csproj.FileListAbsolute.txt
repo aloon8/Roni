@@ -29,3 +29,15 @@ C:\Roni\GameService\GameService\obj\Debug\GameService.csproj.CoreCompileInputs.c
 C:\Roni\GameService\GameService\obj\Debug\GameService.csproj.CopyComplete
 C:\Roni\GameService\GameService\obj\Debug\GameService.dll
 C:\Roni\GameService\GameService\obj\Debug\GameService.pdb
+C:\Git\Roni\GameService\GameService\obj\Debug\GameService.csprojAssemblyReference.cache
+C:\Git\Roni\GameService\GameService\obj\Debug\GameService.csproj.CoreCompileInputs.cache
+C:\Git\Roni\GameService\GameService\obj\Debug\GameService.dll
+C:\Git\Roni\GameService\GameService\obj\Debug\GameService.pdb
+C:\Git\Roni\GameService\GameService\bin\Debug\GameService.dll.config
+C:\Git\Roni\GameService\GameService\bin\Debug\GameService.dll
+C:\Git\Roni\GameService\GameService\bin\Debug\GameService.pdb
+C:\Git\Roni\GameService\GameService\bin\Debug\EntityFramework.dll
+C:\Git\Roni\GameService\GameService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\Roni\GameService\GameService\bin\Debug\EntityFramework.xml
+C:\Git\Roni\GameService\GameService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\Roni\GameService\GameService\obj\Debug\GameService.csproj.CopyComplete

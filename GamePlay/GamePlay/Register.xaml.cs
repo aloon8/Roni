@@ -36,7 +36,9 @@ namespace GamePlay
         {
             try
             {
-                connectionToServer.Register(name.Text.Trim(), (pass.Password.Trim()));
+                System.Windows.MessageBox.Show("Alon1", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                connectionToServer.SingIn(name.Text.Trim(), (pass.Password.Trim()));
+                System.Windows.MessageBox.Show("Alon2", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 WaitingForGame waitingForGame = new WaitingForGame(name.Text.Trim(), clientCallback, connectionToServer);
                 waitingForGame.Show();
                 this.Close();
@@ -44,6 +46,10 @@ namespace GamePlay
             catch (FaultException<ConnectedFault> err)
             {
                 System.Windows.MessageBox.Show(err.Detail.Details, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch (Exception)
+            {
+                System.Windows.MessageBox.Show("Alon", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
 

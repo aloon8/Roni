@@ -38,6 +38,7 @@ namespace GameService
 
         public void Register(string name, string pass)
         {
+            System.Windows.MessageBox.Show("Alon3", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             if (userExist(name) || string.IsNullOrEmpty(name) || string.IsNullOrEmpty(pass))
             {
                 ConnectedFault userExsists = new ConnectedFault
@@ -135,6 +136,7 @@ namespace GameService
 
         public void SingIn(string user, string pass)
         {
+            System.Windows.MessageBox.Show("Alon3", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             if (avilableClinets.ContainsKey(user))
             {
                 ConnectedFault userExsists = new ConnectedFault

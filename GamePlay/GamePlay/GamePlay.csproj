@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GameService">
+      <HintPath>..\..\GameService\GameService\bin\Debug\GameService.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -59,6 +62,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Connected Services\GameServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="DiscGame.cs" />
     <Compile Include="GameWindow.xaml.cs">
       <DependentUpon>GameWindow.xaml</DependentUpon>
@@ -126,6 +134,22 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Connected Services\GameServiceReference\GameServiceClass.wsdl" />
+    <None Include="Connected Services\GameServiceReference\GameServices.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GameServiceReference\GameServices1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GameServiceReference\GameServices2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GameServiceReference\GameServices3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GameServiceReference\GameServices4.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\GameServiceRef\GamePlay.GameServiceRef.MoveResult.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -157,6 +181,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\GameServiceReference\" />
     <WCFMetadataStorage Include="Connected Services\GameServiceRef\" />
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +204,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="board_image_6-7.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GameServiceReference\GameServices.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GameServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GameServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GameServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

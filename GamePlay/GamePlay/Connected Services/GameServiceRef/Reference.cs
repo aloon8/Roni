@@ -191,7 +191,7 @@ namespace GamePlay.GameServiceRef {
         public GameServiceClient(System.ServiceModel.InstanceContext callbackInstance, System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(callbackInstance, binding, remoteAddress) {
         }
-        
+
         public void Register(string user, string pass) {
             base.Channel.Register(user, pass);
         }
